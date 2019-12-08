@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Sunshine';
+    src: url('Sunshine.ttf');
+}
+
+#omotac {
+    width: 900px;
+    margin: auto;
+    border-left: 5px solid gold;
+    padding-left: 25px;
+}
+
+#omotac h1 {
+    font-family: 'Sunshine';
+    font-size: 50px;
+    border-bottom: 5px solid gold;
+    padding-bottom: 25px;
+    background-image: url('pattern.png');
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+
+#levo {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#levo figure {
+    width: 90%;
+    margin: auto;
+}
+
+#levo figure img {
+    width: 100%;
+    height: auto;
+}
+
+#levo figure figcaption {
+    text-align: center;
+}
+
+#desno {
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: 25px;
+}
+
+#desno h2 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+#desno .kucica {
+    border: 1px dashed gold;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#desno .kucica:hover {
+    background-color: gold;
+    font-family: sans-serif;
+}
+
+#desno #kucica1 {
+    top: 35px;
+    left: 0px;
+    border-radius: 50px 0px 0px 0px;
+}
+
+#desno #kucica2 {
+    top: 35px;
+    left: 200px;
+    border-radius: 0px 50px 0px 0px;
+}
+
+#desno #kucica3 {
+    top: 235px;
+    left: 0px;
+    border-radius: 0px 0px 0px 50px;
+}
+
+#desno #kucica4 {
+    top: 235px;
+    left: 200px;
+    border-radius: 0px 0px 50px 0px;
+}
+
+#desno #saundtrek {
+    position: absolute;
+    top: 450px;
+}
+
+#desno #saundtrek ul {
+    list-style-image: url('diamond.jpg');
+}
+
+#desno #saundtrek ul li:nth-child(even) {
+    color: darkgoldenrod;
+}
+
+#desno table {
+    width: 100%;
+    position: absolute;
+    top: 650px;
+    margin-bottom: 50px;
+    empty-cells: hide;
+}
+
+#desno table caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#desno table td {
+    border: 5px solid goldenrod;
+    padding: 5px;
+    text-align: justify;
+}
+
+#desno table td a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+#desno table td::first-letter {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+footer {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    padding: 25px;
+    background-image: radial-gradient(gold, white 75%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
